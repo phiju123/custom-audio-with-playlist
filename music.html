@@ -1,0 +1,47 @@
+<html>
+<title>Radio</title>
+<head>
+	<link rel="stylesheet" href="style1.css" media="screen">
+</head>
+<body>
+<div id="wrapper">
+	<div id="container">
+		<div id="audio-image">
+			<img class="cover" />
+		</div>
+		<ul id="playlist" class="hidden">
+			<li song="01 - Tere Hoke Rehengay [Funmaza.com].mp3" cover="rajanatwarlal.jpg" artist="Raja natwarlal">Tere Hoke Rehengay</li>
+			<li song="Numb.mp3" cover="cover1.jpg" artist="Linkin Park">Numb</li>
+		</ul>
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 
+		 <br>
+		 <div id="foot">
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+			<span id="duration"></span>
+		</div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			
+		 </div>
+		 
+		 <div class="clearfix"></div>
+		 </div>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
